@@ -28,6 +28,7 @@ public class WebsocketServer extends WebSocketServer {
     public void onOpen(WebSocket conn, ClientHandshake handshake) {
         WebsocketSessionManager.getSessionManager().openSession(conn.getRemoteSocketAddress().getAddress().getHostAddress());
         Bukkit.getLogger().info(conn.getRemoteSocketAddress().getAddress().getHostName() + " has connected to the Websocket server!");
+
     }
 
     @Override
@@ -41,6 +42,7 @@ public class WebsocketServer extends WebSocketServer {
         Bukkit.getLogger().info("Recieve Websocket packet - " + conn + ":" + message);
         if (message.split(":")[0].equalsIgnoreCase("name")) {
             WebsocketSessionManager.getSessionManager().addSessionUsername(conn.getRemoteSocketAddress().getAddress().getHostAddress(), message.split(":")[1]);
+            Bukkit.getPlayer(message.split(":")[1]).sendMessage("[MD] Connected to the audio server!");
         }
     }
 

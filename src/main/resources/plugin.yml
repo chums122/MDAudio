@@ -5,3 +5,7 @@ api-version: 1.13
 authors: [chums122]
 description: MagicalDreams Custom Audio Server
 website: https://magicaldreams.us/
+commands:
+  test:
+    description: test
+    usage: /test

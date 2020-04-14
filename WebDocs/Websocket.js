@@ -11,14 +11,19 @@ ws.onopen = function () {
         document.write("Connected to websocket server! <br>");
         ws.send("name:" + delineate(text));
         document.write("Sent data: name:" + delineate(text) + "<br>");
+		var sound = new Howl({
+			src: ['connected.ogg']
+		});
+		sound.play();		
     }
 
 };
 
 ws.onmessage = function (evt) {
     var sound = new Howl({
-        urls: ['sounds/' + evt.data + '.ogg']
-    }).play();
+        src: [evt.data]
+    });
+    sound.play();
 };
 
 ws.onclose = function () {

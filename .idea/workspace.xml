@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="0ce30f3b-9335-4a70-a21e-741feee4b045" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDocs/Websocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebDocs/Websocket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/us/magicaldreams/mdaudio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/us/magicaldreams/mdaudio/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/us/magicaldreams/mdaudio/commands/TestCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/us/magicaldreams/mdaudio/commands/TestCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/us/magicaldreams/mdaudio/servers/WebsocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/us/magicaldreams/mdaudio/servers/WebsocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/MDAudio-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MDAudio-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/MDAudio-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MDAudio-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/us/magicaldreams/mdaudio/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/us/magicaldreams/mdaudio/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/us/magicaldreams/mdaudio/events/PlayerJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/us/magicaldreams/mdaudio/events/PlayerJoin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/us/magicaldreams/mdaudio/commands/TestCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/us/magicaldreams/mdaudio/commands/TestCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/us/magicaldreams/mdaudio/servers/WebsocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/us/magicaldreams/mdaudio/servers/WebsocketServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-MDAudio-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-MDAudio-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MDBungeeCore" />
   </component>
   <component name="RunManager" selected="Maven.MDAudio [package]">
     <configuration name="MDAudio [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
@@ -130,21 +134,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2005" height="226" key="GridCell.Tab.0.bottom" timestamp="1586831993312">
+    <state x="805" y="312" key="FileChooserDialogImpl" timestamp="1586845328059">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="226" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.188.1920.1040@0.0.2048.1112" timestamp="1586831993312" />
-    <state width="2005" height="226" key="GridCell.Tab.0.center" timestamp="1586831993311">
+    <state x="805" y="312" key="FileChooserDialogImpl/0.0.2048.1112/-1920.188.1920.1040@0.0.2048.1112" timestamp="1586845328059" />
+    <state width="2005" height="226" key="GridCell.Tab.0.bottom" timestamp="1586856300620">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="226" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.188.1920.1040@0.0.2048.1112" timestamp="1586831993311" />
-    <state width="2005" height="226" key="GridCell.Tab.0.left" timestamp="1586831993311">
+    <state width="2005" height="226" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.188.1920.1040@0.0.2048.1112" timestamp="1586856300620" />
+    <state width="2005" height="226" key="GridCell.Tab.0.center" timestamp="1586856300620">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="226" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.188.1920.1040@0.0.2048.1112" timestamp="1586831993311" />
-    <state width="2005" height="226" key="GridCell.Tab.0.right" timestamp="1586831993311">
+    <state width="2005" height="226" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.188.1920.1040@0.0.2048.1112" timestamp="1586856300620" />
+    <state width="2005" height="226" key="GridCell.Tab.0.left" timestamp="1586856300620">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="226" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.188.1920.1040@0.0.2048.1112" timestamp="1586831993311" />
+    <state width="2005" height="226" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.188.1920.1040@0.0.2048.1112" timestamp="1586856300620" />
+    <state width="2005" height="226" key="GridCell.Tab.0.right" timestamp="1586856300620">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="226" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.188.1920.1040@0.0.2048.1112" timestamp="1586856300620" />
+    <state x="719" y="154" width="609" height="804" key="find.popup" timestamp="1586854602639">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="719" y="154" width="609" height="804" key="find.popup/0.0.2048.1112/-1920.188.1920.1040@0.0.2048.1112" timestamp="1586854602639" />
   </component>
 </project>
