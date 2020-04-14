@@ -33,3 +33,4 @@ function delineate(str) {
     theleft = str.indexOf("=") + 1;
     theright = str.lastIndexOf("&");
     return (str.substring(theleft, theright));
+};
