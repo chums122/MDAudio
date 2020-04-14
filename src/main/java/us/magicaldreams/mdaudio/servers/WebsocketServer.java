@@ -10,6 +10,7 @@ import org.java_websocket.WebSocketImpl;
 import org.java_websocket.handshake.ClientHandshake;
 import org.java_websocket.server.WebSocketServer;
 import us.magicaldreams.mdaudio.managers.WebsocketSessionManager;
+import us.magicaldreams.mdaudio.sessions.WebsocketSession;
 
 public class WebsocketServer extends WebSocketServer {
 
@@ -68,7 +69,7 @@ public class WebsocketServer extends WebSocketServer {
         }
     }
 
-    public void sendData(WebsocketSessionManager.WebsocketSession session, String data) {
+    public void sendData(WebsocketSession session, String data) {
         Collection<WebSocket> con = connections();
         synchronized (con) {
             for (WebSocket c : con) {
