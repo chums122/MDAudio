@@ -1,0 +1,88 @@
+package us.magicaldreams.mdaudio.managers;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.bukkit.Bukkit;
+
+public class WebsocketSessionManager {
+
+    public class WebsocketSession {
+        String host;
+        String name;
+
+        public WebsocketSession(String host) {
+            this.host = host;
+        }
+
+        public String getHost() {
+            return host;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String toString() {
+            return "WebsocketSession.java - Host: " + host + " Name: " + name;
+        }
+    }
+
+    private static WebsocketSessionManager sessionManager;
+
+    private List<WebsocketSession> sessions = new ArrayList<WebsocketSession>();
+
+    public static WebsocketSessionManager getSessionManager() {
+        if (sessionManager == null) {
+            sessionManager = new WebsocketSessionManager();
+        }
+        return sessionManager;
+    }
+
+    public List<WebsocketSession> getSessions() {
+        return sessions;
+    }
+
+    public void openSession(String host) {
+        sessions.add(new WebsocketSession(host));
+        Bukkit.getLogger().info("Opened Websocket session: " + getSessionByHost(host));
+    }
+
+    public void endSession(String host) {
+        sessions.remove(getSessionByHost(host));
+    }
+
+    public void endSessionByName(String name) {
+        sessions.remove(getSessionByName(name));
+    }
+
+    public WebsocketSession getSessionByHost(String host) {
+        for (WebsocketSession s : sessions) {
+            if (s.getHost() == host)
+                return s;
+        }
+        return null;
+    }
+
+    public WebsocketSession getSessionByName(String name) {
+        for (int i = 0; i < sessions.size(); i++) {
+            Bukkit.getLogger().info("Session gotten:" + sessions.get(i));
+            if (sessions.get(i).getName().equalsIgnoreCase(name))
+                return sessions.get(i);
+        }
+        return null;
+    }
+
+    public void addSessionUsername(String host, String name) {
+        Bukkit.getLogger().info("Attemption to update session with data: " + name + " and a host of: " + host);
+        for (int i = 0; i < sessions.size(); i++) {
+            if (sessions.get(i).getHost().equalsIgnoreCase(host)) {
+                sessions.get(i).setName(name);
+                Bukkit.getLogger().info("Updated Websocket session information: " + sessions.get(i));
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+us\magicaldreams\mdaudio\servers\WebsocketServer.class
+us\magicaldreams\mdaudio\events\PlayerJoin.class
+us\magicaldreams\mdaudio\managers\WebsocketSessionManager$WebsocketSession.class
+us\magicaldreams\mdaudio\managers\SoundEffectsManager.class
+us\magicaldreams\mdaudio\managers\WebsocketSessionManager.class
+us\magicaldreams\mdaudio\servers\WebServer.class
+us\magicaldreams\mdaudio\commands\TestCommand.class
+us\magicaldreams\mdaudio\Main.class
