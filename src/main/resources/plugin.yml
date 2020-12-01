@@ -9,3 +9,6 @@ commands:
   test:
     description: test
     usage: /test
+  audio:
+    description: Link stuffs
+    usage: /audio

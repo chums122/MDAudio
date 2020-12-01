@@ -1,7 +1,9 @@
+E:\IdeaProjects\MDAudio\MDAudio\src\main\java\us\magicaldreams\mdaudio\commands\AudioCmd.java
 E:\IdeaProjects\MDAudio\MDAudio\src\main\java\us\magicaldreams\mdaudio\Main.java
 E:\IdeaProjects\MDAudio\MDAudio\src\main\java\us\magicaldreams\mdaudio\managers\WebsocketSessionManager.java
 E:\IdeaProjects\MDAudio\MDAudio\src\main\java\us\magicaldreams\mdaudio\servers\WebsocketServer.java
 E:\IdeaProjects\MDAudio\MDAudio\src\main\java\us\magicaldreams\mdaudio\events\PlayerJoin.java
+E:\IdeaProjects\MDAudio\MDAudio\src\main\java\us\magicaldreams\mdaudio\objects\CommonObjects.java
 E:\IdeaProjects\MDAudio\MDAudio\src\main\java\us\magicaldreams\mdaudio\commands\TestCommand.java
 E:\IdeaProjects\MDAudio\MDAudio\src\main\java\us\magicaldreams\mdaudio\servers\WebServer.java
 E:\IdeaProjects\MDAudio\MDAudio\src\main\java\us\magicaldreams\mdaudio\sessions\WebsocketSession.java
